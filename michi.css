@@ -1,8 +1,16 @@
-.titulo {
-    color: rgb(255, 255, 255);
-    font-linweight: bold;
-    text-align: center;
-    background-image: url(img/header_portada.jpg);
-    height: 200px;
-    padding: 50px 50px;
+/*estilos para los links, deben ir en este orden si lo quiero agregar todos*/
+a:link{
+    color: blueviolet;/*color de los links no visitados*/
+}
+a:visited{
+    color: rgb(98, 4, 138); /*color de los links visitados*/
+}
+a:hover{/*color cuando pasas el mouse por encima*/
+    color: purple;
+}
+a:active{/*color cuando haces click*/
+    color: indigo;
+}
+header nav a{
+    text-decoration: none; /*quita el subrayado de los links en el header*/
 }

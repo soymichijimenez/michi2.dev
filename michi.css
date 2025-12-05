@@ -1,0 +1,8 @@
+.titulo {
+    color: rgb(255, 255, 255);
+    font-linweight: bold;
+    text-align: center;
+    background-image: url(img/header_portada.jpg);
+    height: 200px;
+    padding: 50px 50px;
+}
